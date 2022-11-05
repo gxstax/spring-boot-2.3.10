@@ -82,6 +82,6 @@ file("${rootDir}/spring-boot-tests/spring-boot-smoke-tests").eachDirMatch(~/spri
 	include "spring-boot-tests:spring-boot-smoke-tests:${it.name}"
 }
 
-include "thinking-in-spring-boot"
+//include "thinking-in-spring-boot"
 include "thinking-in-spring-boot:thinking-in-autoconfigure"
 
