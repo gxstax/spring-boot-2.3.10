@@ -1,0 +1,22 @@
+plugins {
+    id 'java'
+    id "java-gradle-plugin"
+    id "org.springframework.boot.conventions"
+//    id "org.springframework.boot.optional-dependencies"
+}
+
+description = "Thinking in Spring Boot AutoConfigure"
+
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+//    testImplementation 'org.junit.jupiter:junit-jupiter-api:5.7.0'
+//    testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine:5.7.0'
+
+    implementation(project(":spring-boot-project:spring-boot-autoconfigure"))
+
+//    api(project(":spring-boot-project:spring-boot-starters:spring-boot-starter-web"))
+}
